@@ -1,3 +1,88 @@
 * {
     margin: 0;
 }
+body {
+    background-color: #e7f8f6;
+    font-family: Arial, sans-serif;
+}
+main {
+    padding-bottom: 30px;
+}
+.profile-pic {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px;
+    background-color: #426B58;
+    border-radius: 66% 34% 35% 65% / 51% 59% 41% 49% ;
+}
+.navbar a {
+    color: #426B58!important;
+}
+.nav-link.logo {
+    font-size: 16px!important;
+    font-weight: bold;
+    color: #0f766e;
+}
+.nav-link.logo:hover {
+    text-decoration: none;
+    color: #065a56;
+}
+.nav-item a{
+    color: #00331A!important;
+}
+.nav-item a:hover{
+    color: #00CC66!important;
+}
+.home-btn {
+    text-align: left;
+}
+.btn-custom {
+    border: 2px solid #00CC66;
+    color: #00CC66;
+}
+.btn-custom:hover {
+    background-color: #00CC66;
+    color: white;
+}
+.btn-primary-custom {
+    color: #fff;
+    background-color: #00CC66;
+    border-color: #00CC66;
+}
+.btn-primary-custom:hover {
+    color: #fff;
+    background-color: #00CC66;
+    border-color: #00CC66;
+    transform: scale(1.1);
+}
+.greet {
+    color: #00331A;
+    text-align: left;
+}
+.desc {
+    color: #00331A;
+    text-align: left;
+}
+.desc span {
+    color: #00CC66;
+}
+.icon-circle {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #426B58;
+    color: white;
+    text-decoration: none;
+}
+.icon-circle:hover {
+    background-color: #426B58;
+    transform: scale(1.1);
+}
+.icon-circle i {
+    width: 24px;
+    height: 24px;
+}
+  

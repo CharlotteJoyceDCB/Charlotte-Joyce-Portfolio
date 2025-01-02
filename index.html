@@ -4,16 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
+    <header class="container my-3">
+        <nav class="d-flex justify-content-between align-items-center">
+            <!-- Logo Section -->
+            <a href="#" class="nav-link logo fw-bold fs-4">@charlottejoyce</a>
+        
+            <!-- Navigation Links -->
+            <ul class="nav">
+              <li class="nav-item"><a href="#" class="nav-link text-dark">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">About</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">Projects</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">Skills</a></li>
+              <li class="nav-item"><a href="#" class="nav-link text-dark">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </nav>
-
+    <main class="container text-center" id="home">
+        <div class="row justify-content-center align-items-center mt-5">
+            <div class="col-md-4">
+                <img src="/images/pfp.png" alt="Profile Picture" class="profile-pic">
+            </div>
+            <div class="col-md-8">
+                <h2 class="greet mt-4">Hello, I’m Charlotte Joyce</h2>
+                <h1 class="desc fw-bold">I <span>design</span> and <span>develop</span> things for the web.</h1>
+                <div class="home-btn mt-4">
+                    <a href="#" class="btn btn-custom px-4 me-3">Check CV</a>
+                    <a href="#" class="btn btn-primary-custom px-4">Projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-5 col-md-4 social-icons">
+            <a href="#" aria-label="GitHub" class="icon-circle me-3">
+            <i data-feather="github"></i>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="icon-circle me-3">
+            <i data-feather="linkedin"></i>
+            </a>
+            <a href="#" aria-label="Facebook" class="icon-circle me-3">
+            <i data-feather="facebook"></i>
+            </a>
+            <a href="#" aria-label="Instagram" class="icon-circle me-3">
+            <i data-feather="instagram"></i>
+            </a>
+        </div>      
+    </main>
+    
     <!-- Footer -->
     <footer>
 
     </footer>
+
+    <script>
+        feather.replace();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </body>
 </html>
