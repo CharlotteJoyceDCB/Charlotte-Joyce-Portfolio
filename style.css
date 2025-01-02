@@ -7,11 +7,11 @@ body {
 }
 main {
     padding-bottom: 30px;
+    margin-top: 5rem;
 }
 .profile-pic {
     width: 100%;
-    max-width: 250px;
-    border-radius: 10px;
+    max-width: 300px;
     background-color: #426B58;
     border-radius: 66% 34% 35% 65% / 51% 59% 41% 49% ;
 }
@@ -21,39 +21,17 @@ main {
 .nav-link.logo {
     font-size: 16px!important;
     font-weight: bold;
-    color: #0f766e;
+    color: #00331A;
 }
 .nav-link.logo:hover {
     text-decoration: none;
-    color: #065a56;
+    color: #00CC66;
 }
 .nav-item a{
     color: #00331A!important;
 }
 .nav-item a:hover{
     color: #00CC66!important;
-}
-.home-btn {
-    text-align: left;
-}
-.btn-custom {
-    border: 2px solid #00CC66;
-    color: #00CC66;
-}
-.btn-custom:hover {
-    background-color: #00CC66;
-    color: white;
-}
-.btn-primary-custom {
-    color: #fff;
-    background-color: #00CC66;
-    border-color: #00CC66;
-}
-.btn-primary-custom:hover {
-    color: #fff;
-    background-color: #00CC66;
-    border-color: #00CC66;
-    transform: scale(1.1);
 }
 .greet {
     color: #00331A;
@@ -66,12 +44,34 @@ main {
 .desc span {
     color: #00CC66;
 }
+.home-btn {
+    text-align: left;
+    display: inline-flex;
+    width: 100%;
+}
+.proj-btn {
+    color: #fff;
+    background-color: #00CC66;
+    border-color: #00CC66;
+}
+.proj-btn:active {
+    color: #00CC66!important;
+    /* background-color: #00CC66!important; */
+    border-width: 2px;
+    border-color: #00CC66!important;
+}
+.proj-btn:hover {
+    color: #fff;
+    background-color: #00CC66;
+    border-color: #00CC66;
+    transform: scale(1.1);
+}
 .icon-circle {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #426B58;
     color: white;
@@ -82,7 +82,7 @@ main {
     transform: scale(1.1);
 }
 .icon-circle i {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
 }
   
