@@ -6,8 +6,8 @@ body {
     font-family: Arial, sans-serif;
 }
 main {
-    padding-bottom: 30px;
     margin-top: 5rem;
+    height: 100vh;
 }
 .profile-pic {
     width: 100%;
@@ -84,5 +84,10 @@ main {
 .icon-circle i {
     width: 18px;
     height: 18px;
+}
+/* ABOUT SECTION */
+.projects {
+    margin-top: -8rem;
+    height: 100vh;
 }
   
