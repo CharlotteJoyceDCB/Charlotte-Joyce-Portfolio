@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/style.css">
     <link rel="icon" href="/images/logo-dynamite.ico">
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 <body>
     <!-- Navbar -->
@@ -36,7 +37,7 @@
                 <img src="/images/pfp.png" alt="Profile Picture" class="profile-pic">
             </div>
             <div class="col-md-8">
-                <h4 class="greet mt-4">Hello, I’m Charlotte Joyce</h4> <br>
+                <h4 class="greet mt-4">Hello, I’m Charlotte Joyce!</h4> <br>
                 <h1 class="desc fw-bold">I <span>design</span> and <span>develop</span> things for the web.</h1>
                 <div class="home-btn mt-4">
                     <!-- <a href="#" class="btn cv-btn px-4 me-3">Check CV</a> -->
@@ -59,155 +60,315 @@
     </main>
 
     <div class="projects container">
-        <h2 class="mb-5">Projects</h2>
-        <div class="row g-4">
-          <!-- Project Card -->
-          <div class="col-md-4">
-            <div class="card shadow-sm">
-              <div class="card-header bg-light text-center">
-                <!-- Placeholder for image or graphic -->
-                <div style="height: 200px; background-color: #e0e0e0;"></div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
-                <p class="fw-bold mb-2">Tech Stacks</p>
-                <!-- Placeholder for tech stack icons -->
-                <div class="d-flex gap-2">
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
+      <h2 class="mb-5 project-title">Projects</h2>
+      <div class="project-cards row g-3">
+        <!-- Project Card -->
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-light text-center p-0">
+              <img
+                src="/images/Rotten-Tomatoes-Redesigned-Mockup.png"
+                class="img-fluid w-100"
+                style="height: 250px; object-fit: cover;"
+                alt="Rotten Tomatoes Redesign"
+              />
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Rotten Tomatoes Redesigned</h5>
+              <p class="card-text text-muted">
+                A visually stunning and modernized redesign of the popular movie review platform Rotten Tomatoes.
+              </p>
+              <p class="fw-bold mb-2">Tech Stacks</p>
+              <div class="stack-container d-flex gap-2">
+                <div class="stack-icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-bootstrap-plain colored"></i>
                 </div>
               </div>
-              <div class="card-footer d-flex justify-content-between">
-                <a href="#" class="btn btn-outline-primary">GitHub</a>
-                <a href="#" class="btn btn-primary">Live View</a>
-              </div>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="https://github.com/CharlotteJoyceDCB/Rotten-Tomatoes-UI-Redesigned" target=”_blank” class="btn btn-source">GitHub</a>
+              <a href="https://rotten-tomatoes-ui-redesigned.vercel.app/" target=”_blank” class="btn btn-live">Live View</a>
             </div>
           </div>
-          <!-- Duplicate this col-md-4 block for other cards -->
-          <div class="col-md-4">
-            <div class="card shadow-sm">
-              <div class="card-header bg-light text-center">
-                <div style="height: 200px; background-color: #e0e0e0;"></div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
-                <p class="fw-bold mb-2">Tech Stacks</p>
-                <div class="d-flex gap-2">
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-light text-center p-0">
+              <img
+                src="/images/To-Do-List App Snippet.png"
+                class="img-fluid w-100"
+                style="height: 250px; object-fit: cover;"
+                alt="Rotten Tomatoes Redesign"
+              />
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">To Do List Web App</h5>
+              <p class="card-text text-muted">
+                A simple and efficient To-Do List application <br> built using HTML, CSS, and JavaScript.
+              </p>
+              <p class="fw-bold mb-2">Tech Stacks</p>
+              <div class="stack-container d-flex gap-2">
+                <div class="stack-icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-javascript-plain colored"></i>
                 </div>
               </div>
-              <div class="card-footer d-flex justify-content-between">
-                <a href="#" class="btn btn-outline-primary">GitHub</a>
-                <a href="#" class="btn btn-primary">Live View</a>
-              </div>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="https://github.com/CharlotteJoyceDCB/To-Do-List-Web-App" target=”_blank” class="btn btn-source">GitHub</a>
+              <a href="https://github.com/CharlotteJoyceDCB/To-Do-List-Web-App" target=”_blank” class="btn btn-live">Live View</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card shadow-sm">
-              <div class="card-header bg-light text-center">
-                <div style="height: 200px; background-color: #e0e0e0;"></div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
-                <p class="fw-bold mb-2">Tech Stacks</p>
-                <div class="d-flex gap-2">
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-light text-center p-0">
+              <img
+                src="/images/Employee-Dashboard-Snippet.png"
+                class="img-fluid w-100"
+                style="height: 250px; object-fit: cover;"
+                alt="Rotten Tomatoes Redesign"
+              />
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Employee Management Dashboard</h5>
+              <p class="card-text text-muted">
+                A simple Employee Management Dashboard that allows you to create, read, update, and delete employee records.
+              </p>
+              <p class="fw-bold mb-2">Tech Stacks</p>
+              <div class="stack-container d-flex gap-2">
+                <div class="stack-icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-react-original colored"></i>
                 </div>
               </div>
-              <div class="card-footer d-flex justify-content-between">
-                <a href="#" class="btn btn-outline-primary">GitHub</a>
-                <a href="#" class="btn btn-primary">Live View</a>
-              </div>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="https://github.com/CharlotteJoyceDCB/employee-dashboard" target=”_blank” class="btn btn-source">GitHub</a>
+              <!-- <a href="#" target=”_blank” class="btn btn-live">Live View</a> -->
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card shadow-sm">
-              <div class="card-header bg-light text-center">
-                <div style="height: 200px; background-color: #e0e0e0;"></div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
-                <p class="fw-bold mb-2">Tech Stacks</p>
-                <div class="d-flex gap-2">
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-light text-center p-0">
+              <img
+                src="/images/Snake-Game-Snippet.png"
+                class="img-fluid w-100"
+                style="height: 250px; object-fit: cover;"
+                alt="Rotten Tomatoes Redesign"
+              />
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">JavaScript Snake Game</h5>
+              <p class="card-text text-muted">
+                A fun and interactive Snake Game built entirely with HTML, CSS, and JavaScript.
+              </p>
+              <p class="fw-bold mb-2">Tech Stacks</p>
+              <div class="stack-container d-flex gap-2">
+                <div class="stack-icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-javascript-plain colored"></i>
                 </div>
               </div>
-              <div class="card-footer d-flex justify-content-between">
-                <a href="#" class="btn btn-outline-primary">GitHub</a>
-                <a href="#" class="btn btn-primary">Live View</a>
-              </div>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="https://github.com/CharlotteJoyceDCB/Snake-Game-Using-JavaScript" target=”_blank” class="btn btn-source">GitHub</a>
+              <a href="https://snake-game-using-java-script.vercel.app/" target=”_blank” class="btn btn-live">Live View</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card shadow-sm">
-              <div class="card-header bg-light text-center">
-                <div style="height: 200px; background-color: #e0e0e0;"></div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
-                <p class="fw-bold mb-2">Tech Stacks</p>
-                <div class="d-flex gap-2">
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-light text-center p-0">
+              <img
+                src="/images/Beehive-Snippet.png"
+                class="img-fluid w-100"
+                style="height: 250px; object-fit: cover;"
+                alt="Rotten Tomatoes Redesign"
+              />
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Beehive</h5>
+              <p class="card-text text-muted">
+                A simple e-commerce landing page made with Tailwind.
+              </p>
+              <p class="fw-bold mb-2">Tech Stacks</p>
+              <div class="stack-container d-flex gap-2">
+                <div class="stack-icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-tailwindcss-original colored"></i>
                 </div>
               </div>
-              <div class="card-footer d-flex justify-content-between">
-                <a href="#" class="btn btn-outline-primary">GitHub</a>
-                <a href="#" class="btn btn-primary">Live View</a>
-              </div>
+            </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="https://github.com/CharlotteJoyceDCB/Beehive" target=”_blank” class="btn btn-source">GitHub</a>
+              <a href="https://beehive-henna.vercel.app/" target=”_blank” class="btn btn-live">Live View</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card shadow-sm">
-              <div class="card-header bg-light text-center">
-                <div style="height: 200px; background-color: #e0e0e0;"></div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Title</h5>
-                <p class="card-text text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
-                </p>
-                <p class="fw-bold mb-2">Tech Stacks</p>
-                <div class="d-flex gap-2">
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
-                  <div class="rounded-circle bg-light" style="width: 30px; height: 30px;"></div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card shadow-sm h-100">
+            <div class="card-header bg-light text-center p-0">
+              <img
+                src="/images/Rotten-Tomatoes-Redesigned-Mockup.png"
+                class="img-fluid w-100"
+                style="height: 250px; object-fit: cover;"
+                alt="Rotten Tomatoes Redesign"
+              />
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Ditoy Baguio</h5>
+              <p class="card-text text-muted">
+                A visually stunning and modernized redesign of the popular movie review platform Rotten Tomatoes.
+              </p>
+              <p class="fw-bold mb-2">Tech Stacks</p>
+              <div class="stack-container d-flex gap-2">
+                <div class="stack-icon">
+                  <i class="devicon-html5-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-css3-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="stack-icon">
+                  <i class="devicon-bootstrap-plain colored"></i>
                 </div>
               </div>
-              <div class="card-footer d-flex justify-content-between">
-                <a href="#" class="btn btn-outline-primary">GitHub</a>
-                <a href="#" class="btn btn-primary">Live View</a>
-              </div>
             </div>
+            <div class="card-footer d-flex justify-content-between">
+              <a href="#" target=”_blank” class="btn btn-source">GitHub</a>
+              <a href="#" target=”_blank” class="btn btn-live">Live View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+      <div class="skills container text-center py-5">
+        <!-- Technologies and Frameworks -->
+        <h2 class="section-title">Technologies and Frameworks</h2>
+        <div class="skills-icons row row-cols-2 row-cols-sm-4 row-cols-md-6 g-3">
+          <div class="col">
+            <i class="devicon-html5-plain colored"></i>
+            <p>HTML 5</p>
+          </div>
+          <div class="col">
+            <i class="devicon-css3-plain colored"></i>
+            <p>CSS 3</p>
+          </div>
+          <div class="col">
+            <i class="devicon-javascript-plain colored"></i>
+            <p>JavaScript</p>
+          </div>
+          <div class="col">
+            <i class="devicon-bootstrap-plain colored"></i>
+            <p>Bootstrap</p>
+          </div>
+          <div class="col">
+            <i class="devicon-sass-original colored"></i>
+            <p>SCSS/SASS</p>
+          </div>
+          <div class="col">
+            <i class="devicon-tailwindcss-original colored"></i>
+            <p>Tailwind</p>
+          </div>
+          <div class="col">
+            <i class="devicon-react-original colored"></i>
+            <p>React</p>
+          </div>
+          <div class="col">
+            <i class="devicon-jquery-plain colored"></i>
+            <p>JQuery</p>
+          </div>
+          <div class="col">
+            <i class="devicon-firebase-plain colored"></i>
+            <p>Firebase</p>
+          </div>
+          <div class="col">
+            <i class="devicon-nextjs-original-wordmark colored"></i>
+            <p>NextJS</p>
+          </div>
+          <div class="col">
+            <i class="devicon-nodejs-plain colored"></i>
+            <p>NodeJS</p>
+          </div>
+          <div class="col">
+            <i class="devicon-php-plain colored"></i>
+            <p>PHP</p>
+          </div>
+        </div>
+    
+        <!-- Other Tools -->
+        <h2 class="section-title">Other Tools</h2>
+        <div class="skills-icons row row-cols-2 row-cols-sm-4 row-cols-md-6 g-3">
+          <div class="col">
+            <i class="devicon-npm-original-wordmark colored"></i>
+            <p>NPM</p>
+          </div>
+          <div class="col">
+            <i class="devicon-git-plain colored"></i>
+            <p>Git</p>
+          </div>
+          <div class="col">
+            <i class="devicon-github-original colored"></i>
+            <p>Github</p>
+          </div>
+          <div class="col">
+            <i class="devicon-postman-plain colored"></i>
+            <p>Postman API</p>
+          </div>
+          <div class="col">
+            <i class="devicon-vscode-plain colored"></i>
+            <p>VSCode</p>
+          </div>
+          <div class="col">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
+            <p>Figma</p>
           </div>
         </div>
       </div>
