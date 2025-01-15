@@ -10,6 +10,14 @@ main {
     margin-top: 5rem;
     height: 100vh;
 }
+#home {
+    height: 100vh;
+}
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
 .profile-pic {
     width: 100%;
     max-width: 300px;
@@ -87,7 +95,7 @@ main {
 /* PROJECTS SECTION */
 .projects {
     /* max-width: 100%; */
-    margin-top: -150px!important;
+    /* margin-top: -150px!important; */
     margin: 0 auto;
     overflow: hidden;
 }
@@ -140,4 +148,39 @@ main {
 .skills-icons img {
     height: 65px;
     width: 65px;
+}
+/* CONTACT FORM */
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+.form-control, .btn {
+    border-radius: 5px;
+}
+.btn-primary {
+    background-color: #02b45b;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #02b45b;
+}
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact-item i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #02b45b;
+}
+.contact-item a {
+    text-decoration: none;
+    color: #000;
+}
+.contact-card input:focus {
+    outline: none;
+    border: none;
 }
