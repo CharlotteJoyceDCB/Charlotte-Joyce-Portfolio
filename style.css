@@ -6,20 +6,34 @@ main {
     padding: 0;
     height: auto;
 }
-#home {
-    margin-bottom: 0;
-    padding-bottom: 5rem;
-}
-.projects {
-    margin: 0 auto;
-    padding-top: 3rem;
-}
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #e7f8f6;
     font-family: Arial, sans-serif;
+}
+.navbar {
+    padding: 0 60px;
+}
+.blurr {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030; 
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+#home {
+    margin-bottom: 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.projects {
+    margin: 0 auto;
+    padding-top: 4rem;
 }
 .section-title {
     margin-top: 0;
@@ -29,7 +43,6 @@ body {
     outline: none;
     box-shadow: none;
 }
-  
 .profile-pic {
     width: 100%;
     max-width: 300px;
@@ -108,6 +121,9 @@ body {
 .project-title {
     font-weight: 800;
 }
+.project-cards {
+    margin-top: -40px;
+}
 .card {
     /* width: 400px; */
     max-width: 100%;
@@ -165,11 +181,16 @@ body {
 .form-control, .btn {
     border-radius: 5px;
 }
-.btn-primary {
-    background-color: #02b45b;
+.submit-btn {
+    background-color: #00CC66;
+    color: #fff;
     border: none;
 }
-.btn-primary:hover {
+.submit-btn:hover {
+    background-color: #02b45b;
+    color: #fff;
+}
+.contact-card .submit-btn:active{
     background-color: #02b45b;
 }
 .contact-item {
