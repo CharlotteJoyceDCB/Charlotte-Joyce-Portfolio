@@ -304,5 +304,21 @@ footer {
         flex-wrap: wrap;
         margin: 0 auto;
     }
+    .timeline-point.start, .timeline-line {
+        visibility: hidden;
+        display: none;
+    }
   }
-  
+@media (max-width: 600px) {
+    .experience-card {
+        /* background-color: blue; */
+        /* width: 300px; */
+        overflow: hidden;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .timeline-point.start, .timeline-line {
+        visibility: hidden;
+        display: none;
+    }
+}
