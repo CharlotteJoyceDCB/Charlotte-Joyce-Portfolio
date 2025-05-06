@@ -174,34 +174,41 @@ body {
 /* EXPERIENCE */
 .work-experience {
     text-align: center;
-    padding: 3rem;
-}
-.work-experience h2 {
+    padding: 3rem 1rem;
+  }
+  
+  .work-experience h2 {
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #02b45b;
     margin-bottom: 0.5rem;
-}
-.work-experience h1 {
+  }
+  
+  .work-experience h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
-}
-.timeline-container {
+  }
+  
+  .timeline-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
-}
-.timeline-line {
+    padding: 2rem 0;
+  }
+  
+  .timeline-line {
     position: absolute;
     left: 50%;
+    top: 0;
     transform: translateX(-50%);
     width: 4px;
     height: 100%;
     background-color: #02b45b;
-}
-.timeline-point {
+  }
+  
+  .timeline-point {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -209,44 +216,54 @@ body {
     height: 12px;
     background-color: #02b45b;
     border-radius: 50%;
-}
-.timeline-point.present {
+  }
+  
+  .timeline-point.present {
     top: 0;
-}
-.timeline-point.start {
+  }
+  
+  .timeline-point.start {
     bottom: 0;
-}
-.experience-card {
+  }
+  
+  .experience-card {
     position: relative;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     width: 100%;
-    max-width: 400px;
+    max-width: 420px;
     text-align: left;
-    margin-left: 60%;
-}
-.experience-card h3 {
+    margin: 2rem auto;
+  }
+  
+  .experience-card h3 {
     font-size: 1.5rem;
-    color: #00331A;
+    color: #00331a;
     margin-bottom: 0.5rem;
-}
-.experience-card h4 {
+  }
+  
+  .experience-card h4 {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
-}
-.experience-card .timeline {
+  }
+  
+  .experience-card .timeline {
     font-style: italic;
     margin-bottom: 1rem;
-}
-.experience-card ul {
+  }
+  
+  .experience-card ul {
     list-style: disc;
     padding-left: 1.5rem;
-}
-.experience-card ul li {
+  }
+  
+  .experience-card ul li {
     margin-bottom: 0.5rem;
-}
+  }
+  
+
 /* CONTACT FORM */
 .contact-card {
     background-color: #ffffff;
@@ -268,6 +285,7 @@ body {
 }
 .contact-card .submit-btn:active{
     background-color: #02b45b;
+    color: #fff;
 }
 .contact-item {
     display: flex;
@@ -296,29 +314,44 @@ footer {
     bottom: 0;
     width: 100%;
 }
-@media (min-width: 768px) and (max-width: 770px) {
+@media (min-width: 768px) {
+  .experience-card {
+    position: relative;
+    margin: 2rem 0;
+  }
+
+  .experience-card:nth-child(odd) {
+    margin-left: auto;
+    margin-right: 60px;
+  }
+
+  .experience-card:nth-child(even) {
+    margin-left: 60px;
+    margin-right: auto;
+  }
+}
+
+/* Stack nicely on small screens */
+@media (max-width: 767px) {
+  .experience-card {
+    margin: 2rem auto;
+  }
+
+  .timeline-line,
+  .timeline-point {
+    left: 20px;
+    transform: none;
+  }
+}
+@media (max-width: 767px) {
     .experience-card {
-        /* background-color: blue; */
-        /* width: 300px; */
-        overflow: hidden;
-        flex-wrap: wrap;
-        margin: 0 auto;
+      margin: 2rem auto;
     }
-    .timeline-point.start, .timeline-line {
-        visibility: hidden;
-        display: none;
+  
+    .timeline-line,
+    .timeline-point {
+      left: 50%;
+      transform: translateX(-50%);
     }
   }
-@media (max-width: 600px) {
-    .experience-card {
-        /* background-color: blue; */
-        /* width: 300px; */
-        overflow: hidden;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-    .timeline-point.start, .timeline-line {
-        visibility: hidden;
-        display: none;
-    }
-}
+  
